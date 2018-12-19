@@ -1,0 +1,178 @@
+
+body{
+	background-color: black !important;
+} 
+#pre-container{
+	width: 1100px;
+	margin: 0 auto; 
+}
+#container{
+	width: 960px;
+	margin: 0 auto;
+}
+.social{
+	position: relative;
+	animation: movimentos; /* aqui eu dou o nome da animação*/
+	animation-duration: 7s;/* tempo de duraçao da animaçao */
+	animation-iteration-count: infinite;/*contagem de interaçao*/
+	animation-timing-function: linear;
+	animation-direction: normal;
+	 
+		
+}
+
+@keyframes movimentos{
+	0% {/* ponto inicial da animaçao*/
+
+		left: 0px;
+		top: 0px;
+	}
+	25%{ 
+		left: 700px;
+		top: 900px;
+	}
+	50%{/* ponto final da animaçao*/
+		left: 700px;
+		top: 0px;
+	}
+	75%{/* ponto final da animaçao*/
+		left: 0px;
+		top: 900px;
+	}
+	100%{/* ponto final da animaçao*/
+		left:0px;
+		top: 0px;
+		transform: rotateZ(360deg);
+	}
+}
+.sasuke{
+	
+}
+.naruto{
+	position: relative;
+	animation: movimen; /* aqui eu dou o nome da animação*/
+	animation-duration: 2s;/* tempo de duraçao da animaçao */
+	animation-iteration-count: infinite;/*contagem de interaçao*/
+	animation-timing-function: ;
+	animation-direction: alternate;
+
+}
+
+	@keyframes movimen{
+	0% {/* ponto inicial da animaçao*/
+
+		left: 0px;
+		top: 30px;
+	}
+	100%{/* ponto final da animaçao*/
+		left: 80px;
+		top: 0px;
+	
+	}
+}
+.sasuke{
+	
+	position: relative;
+	animation: moviment; /* aqui eu dou o nome da animação*/
+	animation-duration: 2s;/* tempo de duraçao da animaçao */
+	animation-iteration-count: infinite;/*contagem de interaçao*/
+	animation-timing-function: linear;
+	animation-direction: alternate;
+}
+	@keyframes moviment{
+	0% {/* ponto inicial da animaçao*/
+
+		left: 0px;
+		top: -60px;
+	}
+	100%{/* ponto final da animaçao*/
+		left: -40px;
+		top: -0px;
+	}
+
+}
+
+h1{
+	color: #FFFF00;
+}
+#logo_header{
+	width: 80px;
+	float: left;
+}
+a{
+	cursor: pointer;
+}
+
+.procurar:hover{
+	background: #BDBDBD;
+	border:1px solid black;
+}
+.procurar{
+		border:1px solid black;
+		color: black;
+}
+
+.box_noticias{
+	height: 340px;
+}
+
+#img_not1{
+	width: 480px;
+	float: left;
+	position: relative;
+
+	animation: movimento; /* aqui eu dou o nome da animação*/
+	animation-duration: 2s;/* tempo de duraçao da animaçao */
+	animation-iteration-count: infinite;/*contagem de interaçao*/
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;
+}
+#not1{
+	width: 480px;
+	float: right;
+	color:#fff;
+}
+
+#not2{
+	width: 480px;
+	float: left;
+	color:#fff;
+}
+#img_not2{
+	width: 480px;
+	float: right;
+	position: relative;
+
+	animation: movimento; /* aqui eu dou o nome da animação*/
+	animation-duration: 2s;/* tempo de duraçao da animaçao */
+	animation-iteration-count: infinite;/*contagem de interaçao*/
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;		
+}
+
+#img_not3{
+	width: 480px;
+	float: left;
+	position: relative;
+
+	animation: movimento; /* aqui eu dou o nome da animação*/
+	animation-duration: 2s;/* tempo de duraçao da animaçao */
+	animation-iteration-count: infinite;/*contagem de interaçao*/
+	animation-timing-function: ease-in-out;
+	animation-direction: alternate;	
+}
+#not3{
+	width: 480px;
+	float: right;
+	color:#fff;
+}
+@keyframes movimento{
+	from {/* ponto inicial da animaçao*/
+
+		top: 0px;
+		opacity: 1;
+	}
+	to{ /* ponto final da animaçao*/
+		top: 83px;
+		opacity: 0.3;
+	}
